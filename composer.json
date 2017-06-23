@@ -1,0 +1,13 @@
+{
+    "name": "justin/center4certs",
+    "description": "Center for Certification Site Fork",
+    "authors": [
+        {
+            "name": "Justin Chiou",
+            "email": "chiou.kai@gmail.com"
+        }
+    ],
+    "require": {
+        "recaptcha-lib/recaptcha": "0.1.*"
+    }
+}
