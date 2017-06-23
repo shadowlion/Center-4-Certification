@@ -2,7 +2,9 @@
     <div class="container">
         <p class="text-muted">
             Built and designed with <i class="fa fa-heart" aria-hidden="true"></i> by
-            <a href="https://github.com/shadowlion">Justin Chiou</a> and <a href="https://github.com/heyari">Ari Buchwald</a>.
+            <a class="text-muted" href="https://github.com/shadowlion">Justin Chiou</a>
+            and
+            <a class="text-muted" href="https://github.com/heyari">Ari Buchwald</a>.
             <br>&copy; <?php echo date("Y"); ?> Center for Certification
         </p>
     </div>

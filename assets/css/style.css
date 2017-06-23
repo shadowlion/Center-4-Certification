@@ -5,7 +5,7 @@ body {
 
 section {
     padding: 4rem;
-    text-align: justify;
+    /*text-align: justify;*/
 }
 
 .hero {
@@ -37,8 +37,17 @@ section {
     background-color: #f7f7f7;
 }
 
+.col-form-label {
+    text-align: right;
+}
+
 .text-muted {
     margin-bottom: 0;
+}
+
+.card {
+    padding: 1.5rem;
+    position: static;
 }
 
 .testimony {
@@ -50,11 +59,12 @@ section {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     padding-bottom: 3rem;
+    text-align: center;
 }
 
 .testimony-profile {
     text-align: center;
-
+    margin-top: -40px;
 }
 
 .testimony-profile img {
@@ -72,5 +82,5 @@ section {
 
 .footer a {
     font-weight: 500;
-    color: #464a4c;
+    color: white;
 }

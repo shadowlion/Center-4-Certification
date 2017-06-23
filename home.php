@@ -2,7 +2,7 @@
 
 <body>
 
-<nav class="navbar navbar-toggleable-md navbar-light bg-transparent fixed-top">
+<nav class="navbar navbar-toggleable-md navbar-light fixed-top">
     <div class="container">
         <a class="navbar-brand" href="index.php?page=home">
             <img class="navbar-logo" src="assets/images/logo.png" width="100">
@@ -53,22 +53,22 @@
         </p>
         <form id="c4cForm" action="certificate.php" method="POST">
             <div class="form-group row">
-                <label class="col-2 col-form-label" for="fullName">Full Name</label>
+                <label class="col-5 col-form-label" for="fullName">Full Name</label>
                 <div class="col-4">
-                    <input class="form-control" type="text" id="fullName" name="fullName" placeholder="Type your full name here">
+                    <input class="form-control" type="text" id="fullName" name="fullName" placeholder="Type your full name here" required>
                 </div>
             </div>
             <div class="form-group row">
-                <label class="col-2 col-form-label" for="email">Email</label>
+                <label class="col-5 col-form-label" for="email">Email</label>
                 <div class="col-4">
-                    <input class="form-control" type="email" id="email" name="email" placeholder="Type your email here">
+                    <input class="form-control" type="email" id="email" name="email" placeholder="Type your email here" required>
                 </div>
             </div>
             <div class="form-group row">
-                <label class="col-2 col-form-label" for="certTitle">Certification Desired</label>
+                <label class="col-5 col-form-label" for="certTitle">Certification Desired</label>
                 <div class="col-4">
-                    <select class="form-control" id="certTitle" name="certTitle">
-                        <option selected>Select your certification</option>
+                    <select required class="form-control" id="certTitle" name="certTitle">
+                        <option value="" selected>Select Your Certification</option>
                         <option value="Certifiable Apologist">Certifiable Apologist</option>
                         <option value="Certified Ass">Certified Ass</option>
                         <option value="Certified Bitch">Certified Bitch</option>
@@ -102,16 +102,16 @@
                 </div>
             </div>
             <div class="form-group row">
-                <label class="col-2 col-form-label" for="certTypeConfirm">You Selected:</label>
+                <label class="col-5 col-form-label" for="certTypeConfirm">You Selected:</label>
                 <div class="col-4">
                     <input class="form-control" type="text" id="certTypeConfirm" name="certTypeConfirm" placeholder="Or did you want to type your own?">
                 </div>
             </div>
             <div class="form-group row">
-                <label class="col-2 col-form-label" for="email">Select a style:</label>
+                <label class="col-5 col-form-label" for="email">Select a style:</label>
                 <div class="col-4">
                     <label>
-                        <input type="radio" name="certColor" value="curly" />
+                        <input type="radio" name="certColor" value="curly" required/>
                         <img src="assets/images/C4C-curly-thmb.png" />
                     </label>
                     <label>
@@ -141,23 +141,26 @@
                 </div>
             </div>
             <div class="form-group row">
-                <label class="col-2 col-form-label" for="certTypeConfirm">Are you human?</label>
-                <div class="col-4">
-                    <div class="form-check form-check-inline">
+                <label class="col-5 col-form-label" for="certTypeConfirm">Are you human?</label>
+                <div class="custom-controls-stacked col-4">
+                    <div class="form-check">
                         <label class="form-check-label">
-                            <input class="form-check-input" type="radio" name="humanCheck">
+                            <input class="form-check-input" type="radio" value="human" name="humanCheck" required>
                             Yes, I am human
                         </label>
                     </div>
-                    <div class="form-check form-check-inline">
+                    <div class="form-check">
                         <label class="form-check-label">
-                            <input class="form-check-input" type="radio" name="humanCheck" data-toggle="tooltip" title="Wrong answer, R2-D2...">
+                            <input class="form-check-input" type="radio" value="bot" name="humanCheck" data-toggle="tooltip" title="Wrong answer, R2-D2...">
                             No, I am a robot
                         </label>
                     </div>
                 </div>
             </div>
-            <button type="submit" class="btn btn-primary">I want my certificate!</button>
+            <div class="text-center">
+                <button id="submitBtn" type="submit" class="btn btn-primary">I want my certificate!</button><br>
+                <small>(Any issues? <a href="mailto:Dr-Cert@center4certs.org">Email us!</a>)</small>
+            </div>
         </form>
     </div>
 </section>
@@ -166,15 +169,14 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <div class="container-fluid">
+                <div class="container">
                     <h3>What Our Fantastic Certify-ees Say:</h3>
                     <div class="card">
                         <p>"People have been telling me for years that I'm a 'Certifiable Nutcase'. Since my doctors would not issue a certificate, I came to the Center For Certification. I now have the proof of my nutcase-iness framed and hanging on my wall!"</p>
                     </div>
                     <div class="testimony-profile">
                         <img class="img-circle" src="assets/images/mbr-160x106.jpg">
-                        <div class="mbr-author-name">Anonymous</div>
-                        <small class="mbr-author-desc">User</small>
+                        <div class="mbr-author-name">Anonymous User</div>
                     </div>
                 </div>
             </div>
