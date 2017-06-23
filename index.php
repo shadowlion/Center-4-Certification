@@ -1,6 +1,7 @@
 <?php
 
-include 'layouts/head.php';
+require 'layouts/head.php';
+include 'layouts/nav.php';
 
 $page = $_GET['page'];	/* gets the variable $page */
 	if (!empty($page)) {
@@ -11,6 +12,6 @@ $page = $_GET['page'];	/* gets the variable $page */
 		include('home.php');
 	} 	/* otherwise, include the default page */
 
-include 'layouts/footer.php';
+require 'layouts/footer.php';
 
 ?>

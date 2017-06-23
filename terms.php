@@ -1,63 +1,29 @@
-<?php include 'templates/head.php'; ?>
+<section class="hero subhero">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <h3>Center For Certification</h3>
+                <p><strong>Certify Yourself!</strong></p>
+            </div>
+        </div>
+    </div>
+</section>
 
-<body>
-    
-<section id="menu-0">
-    <nav class="navbar navbar-dropdown bg-color transparent navbar-fixed-top">
-        <div class="container">
-            <div class="mbr-table">
-                <div class="mbr-table-cell">
-                    <div class="navbar-brand">
-                        <a href="HTTP://center4certs.org" class="navbar-logo">
-                            <img src="assets/images/c4c-logo-2000x1241.png" alt="Center For Certification" title="Center For Certification">
-                        </a>
-                        <a class="navbar-caption" href="index.php">Center For Certification</a>
-                    </div>
-                </div>
-                <div class="mbr-table-cell">
-                    <button class="navbar-toggler pull-xs-right" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar">
-                        <div class="hamburger-icon"></div>
-                    </button>
-                    <ul class="nav-dropdown collapse pull-xs-right nav navbar-nav navbar-toggleable-xl" id="exCollapsingNavbar">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link link" href="index.php" aria-expanded="false">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link link" href="terms-conditions.html" aria-expanded="false">Terms and Conditions</a>
-                        </li>
-                    </ul>
-                    <button hidden="" class="navbar-toggler navbar-close" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar">
-                        <div class="close-icon"></div>
-                    </button>
-                </div>
-            </div>
-        </div>
-    </nav>
-</section>
-<section class="mbr-section article mbr-parallax-background mbr-after-navbar" id="msg-box8-1" style="background-image: url(assets/images/certificate-hero-2000x1500.png); padding-top: 120px; padding-bottom: 120px;">
-    <div class="mbr-overlay" style="opacity: 0.5; background-color: rgb(126, 155, 159);"></div>
+<section class="bg-light">
     <div class="container">
         <div class="row">
-            <div class="col-md-8 col-md-offset-2 text-xs-center">
-                <h3 class="mbr-section-title display-2">Center For Certification</h3>
-                <div class="lead">
-                    <p><strong>Certify Yourself</strong></p>
-                </div>
+            <div class="col-xs-12">
+                <p>For years we have heard people say, "That guy is certifiable". Well we decided those people deserve to be actually certified.</p>
+                <p>Are you certifiable?</p>
             </div>
         </div>
     </div>
 </section>
-<section class="mbr-section article mbr-section__container" id="content1-2" style="background-color: rgb(255, 255, 255); padding-top: 20px; padding-bottom: 20px;">
+
+<section>
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 lead"><p>For years we have heard people say, "That guy is certifiable". Well we decided those people deserve to be actually certified.&nbsp;</p><p><br></p><p>Are you certifiable?</p></div>
-        </div>
-    </div>
-</section>
-<section class="engine"><a rel="external" href="http://mobirise.com">Mobirise</a></section><section class="mbr-section article mbr-section__container mbr-after-navbar" id="content1-c" style="background-color: rgb(255, 255, 255); padding-top: 20px; padding-bottom: 20px;">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 lead">
+            <div class="col-xs-12">
                 <h1>Terms and Conditions ("Terms")</h1>
                 <p>Please read these Terms and Conditions ("Terms", "Terms and  Conditions") carefully before using the http://center4certs.org website  (the "Service") operated by Center for Certification ("us", "we", or  "our").</p>
                 <p>Your access to and use of the Service is conditioned on your  acceptance of and compliance with these Terms. These Terms apply to all  visitors, users and others who access or use the Service.</p>
@@ -81,11 +47,9 @@
                 <p>By continuing to access or use our Service after those revisions  become effective, you agree to be bound by the revised terms. If you do  not agree to the new terms, please stop using the Service.</p>
                 <p>&nbsp;</p>
                 <h2>Contact Us</h2>
-                <p>If you have any questions about these Terms, please <a href="mailto:Dr-Cert@center4certs.org">contact us.</a></p>
+                <p>If you have any questions about these Terms, please <a href="mailto:Dr-Cert@center4certs.org">contact us</a>.</p>
                 <p>&nbsp;</p>
             </div>
         </div>
     </div>
 </section>
-
-<?php include 'templates/footer.php'; ?>
