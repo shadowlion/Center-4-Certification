@@ -1,34 +1,11 @@
 <?php //require_once 'ReCaptcha/CaptchaAutoloader.php'; ?>
 
-<body>
-
-<nav class="navbar navbar-toggleable-md navbar-light fixed-top">
-    <div class="container">
-        <a class="navbar-brand" href="index.php?page=home">
-            <img class="navbar-logo" src="assets/images/logo.png" width="100">
-        </a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.php?page=home">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="index.php?page=terms">Terms and Conditions</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
-
 <section class="hero">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 PT-Serif">
                 <h3>Center For Certification</h3>
-                <p><strong>Certify Yourself!</strong></p>
+                <h5><strong>Certify Yourself!</strong></h5>
             </div>
         </div>
     </div>
