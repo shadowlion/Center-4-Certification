@@ -1,6 +1,6 @@
 <body>
 
-<nav class="navbar navbar-toggleable-md navbar-light fixed-top">
+<nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse nav-opacity fixed-top">
     <div class="container">
         <a class="navbar-brand" href="index.php?page=home">
             <img class="navbar-logo" src="assets/images/logo.png" width="100">
