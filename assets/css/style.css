@@ -193,3 +193,21 @@ label input[type="radio"], label img, select {
     transform: translateX(-50%);
     text-align: center;
 }
+
+.gold {
+    float:right;
+    background-color: #c0a375;
+    border-color: #c0a375;
+    cursor: pointer;
+}
+
+.gold:hover {
+    background-color: #a07e49;
+}
+
+@media print
+{
+    .noprint {
+        display:none;
+    }
+}

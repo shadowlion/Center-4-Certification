@@ -12,6 +12,7 @@ include 'layouts/head.php';
             <h1><?php echo  $_POST['fullName']; ?></h1>
         </div>
     </div>
+    <button class="btn btn-primary gold noprint" onClick="window.print()">Print Certificate</button>
 </body>
 
 <?php include 'layouts/footer.php'; ?>

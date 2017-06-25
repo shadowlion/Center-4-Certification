@@ -1,4 +1,4 @@
-<footer class="footer">
+<footer class="footer noprint">
     <div class="container">
         <p class="text-muted">
             Built and designed with <i class="fa fa-heart" aria-hidden="true"></i> by
