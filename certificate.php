@@ -1,6 +1,7 @@
 <?php
 // include 'lib/emailAdmin.php';
 include 'layouts/head.php';
+include 'layouts/nav.php';
 ?>
 
 <body>
