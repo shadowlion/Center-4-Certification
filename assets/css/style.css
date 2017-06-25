@@ -1,5 +1,5 @@
 @font-face {
-    font-family: klarissa;
+    font-family: klarissa-contour;
     src: url('../fonts/klarissa.contour.ttf');
 }
 
@@ -29,7 +29,7 @@ section {
 }
 
 .Klarissa {
-    font-family: 'klarissa';
+    font-family: 'klarissa-contour';
 }
 
 .hero {
@@ -51,7 +51,7 @@ section {
     color: white;
     font-size: 48px;
     font-weight: 600;
-    line-height 53px;
+    line-height: 53px;
 }
 
 .hero h5 {
@@ -72,9 +72,7 @@ section {
     font-weight: bold;
 }
 
-label input[type="radio"],
-label img,
-select {
+label input[type="radio"], label img, select {
     cursor: pointer;
 }
 
@@ -98,7 +96,6 @@ select {
     font-family: 'Lora', serif;
     font-style: italic;
     text-align: center;
-
     color: #565656;
     font-size: 1.125rem;
     font-weight: 400;
@@ -147,7 +144,12 @@ select {
     color: white;
 }
 
-@media print {
+.terms-copy h1, h2 {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+/*@media print {
     .certificateArea {
         background-color: white;
         height: 100%;
@@ -160,9 +162,34 @@ select {
         font-size: 14px;
         line-height: 18px;
     }
+}*/
+
+.certificateArea {
+    position: relative;
+    width: 1000px;
+    height: 768px;
 }
 
-.terms-copy h1, h2 {
-    margin-top: 24px;
-    margin-bottom: 24px;
+.certificateContent h3 {
+    position: absolute;
+    top: 210px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.certificateContent h2 {
+    position: absolute;
+    top: 335px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.certificateContent h1 {
+    position: absolute;
+    top: 500px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
 }
